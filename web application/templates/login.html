@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    
+    <!-------------REMIXICONS------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="Login">
+        <img src="/static/cs_image.jpg" alt="image" class="login__bg">
+        <form action="" method="post"  class="Login_form">
+            <h1 class="login__title">Login</h1>
+            
+
+            <div class="login__inputs">
+                <!--<div class="login__box">
+                    <input type="text" placeholder="" required class="login__input">
+                </div>-->
+
+                <div class="login__box">
+                    <input type="text" class="login__input" id="username" placeholder="Username" required>
+                    <i class="ri-mail-fill"></i>
+                </div>
+
+                <div class="login__box">
+                    <input type="password"  class="login__input" placeholder="Password" required>
+                    <i class="ri-lock-2-fill"></i>
+                </div>
+            </div>
+
+           <!--<div class="login__check">
+                <div class="login__check-box">
+                    <input type="checkbox" class="login__check-input" id="user_check">
+                    <label for="user-check" class="login__check-label">Remember me</label>
+                </div>
+
+                <a href="" class="login__forgot">Forgot Password</a>
+            </div>-->
+
+            
+            
+            <a href="/templates/main.html" target="_blank">
+            <input type="button" value="Login" class="login__button" ></a>
+            
+
+            <div class="login__register">
+                Don't have an account? <a href="/templates/register.html" >Register</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
